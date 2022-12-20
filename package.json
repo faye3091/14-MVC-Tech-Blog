@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bulma": "^0.9.4",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.27.0"
+  },
+  "name": "14-mvc-tech-blog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faye3091/14-MVC-Tech-Blog.git"
+  },
+  "author": "Vanessa Villaluz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faye3091/14-MVC-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/faye3091/14-MVC-Tech-Blog#readme",
+  "devDependencies": {
+    "@creativebulma/bulma-divider": "^1.1.0",
+    "jest": "^26.0.1"
+  }
+}
