@@ -7,6 +7,9 @@ const postData = [
     },{
         title: "Movie Randomizer is now Available!", 
         post_content: "Randomizes any on the top 250 movies!"
+    },{
+        title: "Weather Dashboard is now Available!", 
+        post_content: "I can see the updated weather on any place!"
     }
 ]
 
