@@ -93,7 +93,7 @@ router.get('/login', (req, res) => {
         const post = dbPostData.get({ plain: true });
 
         // pass data to template
-        res.render('single-post', {
+        res.render('singlepost', {
             post,
             loggedIn: req.session.loggedIn
           });
