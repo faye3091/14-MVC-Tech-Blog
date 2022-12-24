@@ -80,7 +80,8 @@ router.post('/', (req, res) => {
       where: {
         email: req.body.email
       }
-    }).then(dbUserData => {
+    })
+    .then(dbUserData => {
       if (!dbUserData) {
         res.status(400).json({ message: 'No user with that email address!' });
         return;

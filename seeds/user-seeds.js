@@ -5,14 +5,14 @@ const userData = [
         username: "john_snow",
         twitter: "jsnow",
         github: "jsnow",
-        email: "john_snow.gmail.com",
+        email: "john_snow@gmail.com",
         password: "ilovemyaunt143"
     },
     {
         username: "deanerys_targaryen",
         twitter: "dtargaryen",
         github: "dtargaryen",
-        email: "deanerys_targ.gmail.com",
+        email: "deanerys_targ@gmail.com",
         password: "iamtherealqueen123"
     }
 ]
