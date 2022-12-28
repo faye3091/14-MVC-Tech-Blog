@@ -5,6 +5,9 @@
   ## Description
   A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. 
 
+  ## Deployed application
+   [Deployed Link](https://mvc-tech-blog-vv.herokuapp.com/)
+
   ## Table of Contents
   * [User Story](#user-story)
   * [Acceptance Criteria](#acceptance-criteria)
