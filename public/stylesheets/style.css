@@ -1,3 +1,8 @@
+:root {
+  --purple: rgb(208, 158, 208);
+  --yellow: rgb(222, 222, 177);
+  --darkpurple: rgb(111, 64, 111);
+}
 * {
     box-sizing: border-box;
   }
@@ -17,7 +22,7 @@
   }
 
   a:hover {
-    color: #3486eb;
+    color: var(--purple);
   }
 
   button {
@@ -27,6 +32,7 @@
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
+    background-color: var(--darkpurple);
   }
 
   .post-list {
@@ -68,11 +74,17 @@
   }
 
   header {
-    border-bottom: 1px solid #ccc;
+    border: 1px solid var(--purple);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1%;
+    padding: 1%;
+    background-color: var(--purple);
+    border-radius: 5px;
+  }
+
+  .navbar {
+    background-color: var(--purple);
   }
 
   main {
@@ -95,7 +107,7 @@
 
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: rgb(111, 64, 111);
   }
 
   .deletepost-btn {
@@ -161,4 +173,10 @@
   .rows{
       display:flex;
       flex-direction: column;
+  }
+
+  .button {
+    background-color: var(--darkpurple);
+    color: var(--yellow);
+    border: var(--darkpurple)
   }

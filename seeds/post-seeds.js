@@ -12,7 +12,7 @@ const postData = [
     },{
         title: "Weather Dashboard is now Available!", 
         post_content: "I can see the updated weather on any place!",
-        user_id: 1
+        user_id: 3
     }
 ]
 
